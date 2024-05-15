@@ -21,3 +21,11 @@ Welcome to Tobi Talks! This project is a chatbot interface designed to provide e
 
 ## Project Structure
 
+Tobi-Talks/
+│
+├── index.html # The main HTML file
+├── styles.css # CSS file for styling
+├── script.js # JavaScript file for interactivity
+├── README.md # This README file
+└── assets/ # Directory for images and other assets
+└──
