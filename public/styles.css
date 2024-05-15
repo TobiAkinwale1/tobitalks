@@ -9,8 +9,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-image: url('background.jpg'); /* Add the background image */
+    color: #1e1c1c;
+    background-image: url('baground.webp'); /* Add the background image */
     background-size: cover; /* Make the background image cover the entire screen */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
     background-attachment: fixed; /* Fix the background image so it doesn't scroll with the content */
@@ -26,46 +26,56 @@ body {
     max-width: 1100px;
     margin: auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Add a white background with transparency to the container */
+    background-color: rgba(206, 102, 102, 0.8); /* Add a white background with transparency to the container */
     border-radius: 5px; /* Add rounded corners to the container */
+    box-shadow: 0 0 15px rgba(216, 149, 149, 0.2); /* Add a subtle shadow for better separation from the background */
 }
 
 /* Header Styles */
 header {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.823);
     color: #fff;
-    padding: 1rem 0;
+    padding: 1.5rem 0; /* Increase padding */
     text-align: center;
     width: 100%;
+    border-radius: 5px 5px 0 0; /* Rounded corners only at the top */
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5rem; /* Increase font size */
+}
+
+header p {
+    margin-top: 1rem;
+    font-size: 1.2rem; /* Adjust font size as needed */
+    color: #4e1616; /* Lighter color for the paragraph text */
 }
 
 /* Chatbot Styles */
 #chat-container {
-    max-width: 600px;
+    max-width: 800px; /* Increase width */
     margin: 20px auto;
-    border: 1px solid #ccc;
-    padding: 1rem;
-    background-color: #fff;
+    border: 1px solid #907575;
+    padding: 1.5rem; /* Increase padding */
+    background-color: #b85151;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #chat-log {
-    max-height: 300px;
+    max-height: 500px; /* Increase height */
     overflow-y: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem; /* Increase margin */
     border: 1px solid #ddd;
-    padding: 0.5rem;
+    padding: 1rem; /* Increase padding */
     background-color: #f9f9f9;
     border-radius: 5px;
+    font-size: 1.2rem; /* Increase font size */
 }
 
 #chat-log div {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem; /* Increase margin */
 }
 
 #chat-input {
@@ -74,20 +84,36 @@ header h1 {
 
 #user-input {
     flex: 1;
-    padding: 0.5rem;
+    padding: 1rem; /* Increase padding */
     border: 1px solid #ddd;
     border-radius: 5px 0 0 5px;
+    outline: none; /* Remove default outline */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+    font-size: 1.2rem; /* Increase font size */
+}
+
+#user-input:focus {
+    border-color: #333; /* Change border color on focus */
 }
 
 #send-btn {
-    padding: 0.5rem 1rem;
+    padding: 1rem 1.5rem; /* Increase padding */
     border: none;
     background-color: #333;
     color: #fff;
     cursor: pointer;
     border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    font-size: 1.2rem; /* Increase font size */
 }
 
 #send-btn:hover {
     background-color: #555;
+}
+
+/* Add a subtle hover effect to chat log messages */
+#chat-log div:hover {
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
