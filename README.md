@@ -18,7 +18,6 @@ Welcome to Tobi Talks! This project is a chatbot interface designed to provide e
 - **HTML5:** For structuring the web page.
 - **CSS3:** For styling the web page, including the layout and design of the chatbot interface.
 - **JavaScript:** For adding interactivity to the chatbot interface.
-- **Chatbot API:** (If applicable) Describe the API used for the chatbot functionality.
 
 ## Project Structure
 
