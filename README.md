@@ -19,5 +19,7 @@ Welcome to Tobi Talks! This project is a chatbot interface designed to provide e
 - **CSS3:** For styling the web page, including the layout and design of the chatbot interface.
 - **JavaScript:** For adding interactivity to the chatbot interface.
 
-## Project Structure
+## Output Sample
+<img width="965" alt="Screenshot 2024-05-14 at 11 26 53 PM" src="https://github.com/TobiAkinwale1/webdesign/assets/133909667/0bf5ff04-2c03-4a31-a8a9-c3dc9f8c80cd">
+
 
