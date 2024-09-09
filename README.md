@@ -21,6 +21,7 @@ Welcome to Tobi Talks! This project is a chatbot interface designed to provide e
 - **Data Science Skills:** RAG and Prompt Engineering
 
 ## Output Sample
-<img width="1058" alt="image" src="https://github.com/TobiAkinwale1/tobitalks/assets/133909667/b4f87790-0564-4e8d-898f-299e23a5134a">
+<img width="1301" alt="image" src="https://github.com/user-attachments/assets/08154ea3-bf47-41d8-a7ec-a832d0a077c2">
+
 
 
