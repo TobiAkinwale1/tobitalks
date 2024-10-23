@@ -23,5 +23,12 @@ Welcome to Tobi Talks! This project is a chatbot interface that provides engagin
 ## Output Sample
 <img width="1301" alt="image" src="https://github.com/user-attachments/assets/08154ea3-bf47-41d8-a7ec-a832d0a077c2">
 
+## How to run
+```
+pip install -r requirements.txt
+python app.py
+```
+make sure you have a config.env with ypur api key
+
 
 
